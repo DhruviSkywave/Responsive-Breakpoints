@@ -1,4 +1,4 @@
-"use client" // Only this component uses client-side rendering
+"use client" 
 
 export default function ResponsiveContent() {
   return (
@@ -16,19 +16,17 @@ export default function ResponsiveContent() {
       "
     >
       <div className="text-center space-y-6 px-4">
-        {/* Text - always visible */}
+   
         <p className="text-2xl font-bold text-gray-800">
           Responsive Task Practical
         </p>
 
-        {/* Image - visible from tablet */}
         <img
           src="/image.png"
           alt="Sample"
           className="hidden md:block mx-auto w-40 h-40 object-cover rounded-lg shadow-lg"
         />
 
-        {/* Button - visible from desktop */}
         <button className="hidden lg:inline-block px-6 py-3 bg-black text-white rounded-lg shadow hover:bg-gray-800 transition">
           Click Me
         </button>
