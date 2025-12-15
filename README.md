@@ -1,21 +1,20 @@
-Responsive Breakpoint 
+## Responsive Breakpoint 
 
 A simple Next.js + Tailwind CSS project demonstrating with reusable components, responsive background colors, and conditional content visibility.
 
-Project Overview
-
+## Project Overview
 -Responsive Background Color
 -Responsive Visibility & Content Positioning
 -Reusable Components
 
-Tech Stack
+## Tech Stack
 
 -Next.js
 -TypeScript
 -Tailwind CSS
 -Vercel(for deployment)
 
-Project Structure
+## Project Structure
 ```
 ├── app/
 │ └── page.tsx 
